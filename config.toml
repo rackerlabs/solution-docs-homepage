@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://solution-docs-homepage.netlify.app/"
 copyright = ""
 defaultContentLanguage = "en-us"
 destination = "public"
