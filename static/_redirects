@@ -1,2 +1,4 @@
 /docs/*     https://docs.rackspace.com/docs/:splat      200!
+https://solution-docs-homepage.netlify.app/docs/*       https://sdk.rackspace.com/docs/:splat      301!
 /sdks/*     https://docs.rackspace.com/sdks/:splat      200!
+https://solution-docs-homepage.netlify.app/sdks/*       https://sdk.rackspace.com/sdks/:splat      301!
