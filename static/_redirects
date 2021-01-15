@@ -1,1 +1,2 @@
 /docs/*     https://docs.rackspace.com/docs/:splat      200!
+/sdks/*     https://docs.rackspace.com/sdks/:splat      200!
