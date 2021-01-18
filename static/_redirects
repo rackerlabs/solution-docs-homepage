@@ -1,5 +1,5 @@
-/docs/portal-onboarding-guide/      https://docs-portal-onboarding-guide.netlify.app/               200!
-/docs/portal-onboarding-guide/*      https://docs-portal-onboarding-guide.netlify.app/:splat         200!
+/docs/portal-onboarding-guide/      https://docs-portal-onboarding-guide.netlify.app/               200
+/docs/portal-onboarding-guide/*      https://docs-portal-onboarding-guide.netlify.app/:splat         200
 
-/docs/*     https://api.rackspace.com/docs/:splat      200!
-/sdks/*     https://api.rackspace.com/sdks/:splat      200!
+/docs/*     https://api.rackspace.com/docs/:splat      200
+/sdks/*     https://api.rackspace.com/sdks/:splat      200
