@@ -1,3 +1,3 @@
 /docs/*     https://docs.rackspace.com/docs/:splat      200!
 /sdks/*     https://docs.rackspace.com/sdks/:splat      200!
-https://sdk.rackspace.com/*     https://solution-docs-homepage.netlify.app/:splat   200!
+/style.css  https://solution-docs-homepage.netlify.app/style.css    301!
