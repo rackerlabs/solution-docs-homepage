@@ -1,0 +1,85 @@
+# Solution Docs Redirects
+/docs   https://solution-docs-homepage.netlify.app/     200
+
+# Portal Onboarding guide Redirects
+/docs/portal-onboarding-guide/*      https://docs-portal-onboarding-guide.netlify.app/:splat         200
+
+# Customer Service
+/docs/customer-service/v1/*      https://docs-customer-service.netlify.app/:splat         200
+
+# Cloud Servers
+/docs/cloud-servers/v2/*       https://docs-cloud-servers.netlify.app/:splat       200
+
+# Colocation guide
+/docs/docs-colocation-guide/*      https://docs-colocation-guide.netlify.app/:splat      200
+
+# Quick start
+/docs/cloud-servers/quickstart/*      https://docs-quickstart.netlify.app/cloud-servers/quickstart/:splat     200
+
+/docs/cloud-images/quickstart/*        https://docs-quickstart.netlify.app/cloud-images/quickstart/:splat        200
+
+/docs/cloud-networks/quickstart/*      https://docs-quickstart.netlify.app/cloud-networks/quickstart/:splat        200  
+
+/docs/cloud-load-balancers/quickstart/*      https://docs-quickstart.netlify.app/cloud-load-balancers/quickstart/:splat    200  
+
+/docs/cloud-dns/quickstart/*       https://docs-quickstart.netlify.app/cloud-dns/quickstart/:splat     200
+
+/docs/cloud-block-storage/quickstart/*     https://docs-quickstart.netlify.app/cloud-block-storage/quickstart/:splat   200
+
+/docs/cloud-files/quickstart/*        https://docs-quickstart.netlify.app/cloud-files/quickstart/:splat        200
+
+/docs/cdn/quickstart/*     https://docs-quickstart.netlify.app/cdn/quickstart/:splat       200
+
+/docs/cloud-databases/quickstart/*     https://docs-quickstart.netlify.app/cloud-databases/quickstart/:splat   200
+
+/docs/auto-scale/quickstart/*      https://docs-quickstart.netlify.app/auto-scale/quickstart/:splat      200
+
+/docs/rackspace-monitoring/quickstart/*        https://docs-quickstart.netlify.app/rackspace-monitoring/quickstart/:splat      200
+
+/docs/cloud-identity/quickstart/*      https://docs-quickstart.netlify.app/cloud-identity/quickstart/:splat    200
+
+/docs/cloud-queues/quickstart/*        https://docs-quickstart.netlify.app/cloud-queues/quickstart/:splat      200
+
+/docs/orchestration/quickstart/*       https://docs-quickstart.netlify.app/orchestration/quickstart/:splat     200
+
+
+
+# Service Blocks Redirects
+# /docs/service-blocks/*      https://docs-service-blocks.netlify.app/:splat      200
+
+# RAS Redirects
+# /docs/ras-databases/*      https://docs-ras-databases.netlify.app/:splat      200
+
+# AWS Redirects
+# /docs/fanatical-support-aws/*    https://docs-aws.netlify.app/:splat    200
+
+# GCP Redirects
+# /docs/fanatical-support-gcp/*    https://docs-gcp.netlify.app/:splat    200
+
+# DXP Redirects
+# /docs/dxp-customer-handbook/*    https://docs-dxp-handbook.netlify.app/:splat    200
+
+# Rackspace Federation
+# /docs/rackspace-federation/*    https://docs-rackspace-federation.netlify.app/:splat    200
+
+# RPC VMWare
+# /docs/rpc-vmware/rpc-vmware-customer-handbook/*  https://rpc-vmware.netlify.app/doc/rpc-vmware/rpc-vmware-customer-handbook/:splat    200
+# /doc/rpc-vmware/vmware-cloud/  https://rpc-vmware.netlify.app/doc/rpc-vmware/vmware-cloud/    200
+# /doc/rpc-vmware/vmware-cloud/*  https://rpc-vmware.netlify.app/doc/rpc-vmware/vmware-cloud/:splat    200
+# /docs/docs-vmware-server-virt/server-virt-handbook/     https://rpc-vmware.netlify.app/doc/rpc-vmware/server-virt-handbook/     200
+# /docs/docs-vmware-server-virt/server-virt-handbook/*     https://rpc-vmware.netlify.app/doc/rpc-vmware/server-virt-handbook/:splat     200
+
+# Red-hat
+
+/docs/private-cloud/red-hat/rpcr-arch/*     https://docs-redhat-osp.netlify.app/docs/private-cloud/red-hat/rpcr-arch/:splat     200
+
+# Private Cloud Docs
+
+/docs/private-cloud/rpc/v17/*       https://develop-v17--privatecloud-docs.netlify.app/:splat      200
+
+/docs/private-cloud/rpc/v16/*       https://develop-v16--privatecloud-docs.netlify.app/:splat      200
+
+/docs/private-cloud/rpc/v14/*       https://develop-v14--privatecloud-docs.netlify.app/:splat      200
+
+/docs/private-cloud/rpc/v13/*       https://develop-v13--privatecloud-docs.netlify.app/:splat      200
+
