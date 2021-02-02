@@ -83,3 +83,5 @@
 
 /docs/private-cloud/rpc/v13/*       https://develop-v13--privatecloud-docs.netlify.app/:splat      200
 
+# Cloud orchestration
+/docs/cloud-orchestration/v1/*  https://docs-cloud-orchestration.netlify.app/:splat     200
