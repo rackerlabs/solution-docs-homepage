@@ -8,7 +8,7 @@
 /docs/customer-service/v1/*      https://docs-customer-service.netlify.app/:splat         200
 
 # Cloud Servers
-/docs/cloud-servers/v2/*       https://docs-cloud-servers.netlify.app/:splat       200
+/docs/cloud-servers/v2/*       https://docs-cloud-servers.netlify.app/docs/cloud-servers/v2/:splat       200
 
 # Colocation guide
 /docs/docs-colocation-guide/*      https://docs-colocation-guide.netlify.app/:splat      200
