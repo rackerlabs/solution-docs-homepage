@@ -45,29 +45,29 @@
 
 
 # Service Blocks Redirects
-# /docs/service-blocks/*      https://docs-service-blocks.netlify.app/:splat      200
+/docs/service-blocks/*      https://docs-service-blocks.netlify.app/:splat      200
 
 # RAS Redirects
-# /docs/ras-databases/*      https://docs-ras-databases.netlify.app/:splat      200
+/docs/ras-databases/*      https://docs-ras-databases.netlify.app/:splat      200
 
 # AWS Redirects
-# /docs/fanatical-support-aws/*    https://docs-aws.netlify.app/:splat    200
+/docs/fanatical-support-aws/*    https://docs-aws.netlify.app/:splat    200
 
 # GCP Redirects
-# /docs/fanatical-support-gcp/*    https://docs-gcp.netlify.app/:splat    200
+/docs/fanatical-support-gcp/*    https://docs-gcp.netlify.app/:splat    200
 
 # DXP Redirects
-# /docs/dxp-customer-handbook/*    https://docs-dxp-handbook.netlify.app/:splat    200
+/docs/dxp-customer-handbook/*    https://docs-dxp-handbook.netlify.app/:splat    200
 
 # Rackspace Federation
-# /docs/rackspace-federation/*    https://docs-rackspace-federation.netlify.app/:splat    200
+/docs/rackspace-federation/*    https://docs-rackspace-federation.netlify.app/:splat    200
 
 # RPC VMWare
-# /docs/rpc-vmware/rpc-vmware-customer-handbook/*  https://rpc-vmware.netlify.app/doc/rpc-vmware/rpc-vmware-customer-handbook/:splat    200
-# /doc/rpc-vmware/vmware-cloud/  https://rpc-vmware.netlify.app/doc/rpc-vmware/vmware-cloud/    200
-# /doc/rpc-vmware/vmware-cloud/*  https://rpc-vmware.netlify.app/doc/rpc-vmware/vmware-cloud/:splat    200
-# /docs/docs-vmware-server-virt/server-virt-handbook/     https://rpc-vmware.netlify.app/doc/rpc-vmware/server-virt-handbook/     200
-# /docs/docs-vmware-server-virt/server-virt-handbook/*     https://rpc-vmware.netlify.app/doc/rpc-vmware/server-virt-handbook/:splat     200
+/docs/rpc-vmware/rpc-vmware-customer-handbook/*  https://rpc-vmware.netlify.app/doc/rpc-vmware/rpc-vmware-customer-handbook/:splat    200
+/doc/rpc-vmware/vmware-cloud/  https://rpc-vmware.netlify.app/doc/rpc-vmware/vmware-cloud/    200
+/doc/rpc-vmware/vmware-cloud/*  https://rpc-vmware.netlify.app/doc/rpc-vmware/vmware-cloud/:splat    200
+/docs/docs-vmware-server-virt/server-virt-handbook/     https://rpc-vmware.netlify.app/doc/rpc-vmware/server-virt-handbook/     200
+/docs/docs-vmware-server-virt/server-virt-handbook/*     https://rpc-vmware.netlify.app/doc/rpc-vmware/server-virt-handbook/:splat     200
 
 # Red-hat
 
