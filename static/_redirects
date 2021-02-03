@@ -115,7 +115,7 @@
 /docs/cdn/v1/*      https://docs-cloud-cdn.netlify.app/docs/cdn/v1/:splat    200
 
 # Cloud Block Storage 
-/docs/cloud-block-storage/v1/       https://docs-cloud-block-storage.netlify.app/docs/cloud-block-storage/v1/:splat     200
+/docs/cloud-block-storage/v1/*       https://docs-cloud-block-storage.netlify.app/docs/cloud-block-storage/v1/:splat     200
 
 # Cloud Backup
 /docs/cloud-backup/v1/*         https://docs-cloud-backup.netlify.app/docs/cloud-backup/v1/:splat       200
