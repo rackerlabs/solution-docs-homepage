@@ -63,7 +63,7 @@
 /docs/rackspace-federation/*    https://docs-rackspace-federation.netlify.app/docs/rackspace-federation/:splat    200
 
 # RPC VMWare
-/docs/rpc-vmware/*  https://develop-rpc-vmware--rpc-vmware.netlify.app/doc/rpc-vmware/:splat    200
+/docs/rpc-vmware/*  https://develop-rpc-vmware--rpc-vmware.netlify.app/docs/rpc-vmware/:splat    200
 /doc/rpc-vmware/*  https://develop-vmware-cloud--rpc-vmware.netlify.app/doc/rpc-vmware/:splat    200
 /docs/docs-vmware-server-virt/*     https://develop-server-virtbook--rpc-vmware.netlify.app/docs/docs-vmware-server-virt/:splat     200
 
