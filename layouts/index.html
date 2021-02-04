@@ -4,11 +4,13 @@
 {{- define "main" -}}
 <div id="root"></div>
 <div id="modal-root"></div>
+<div class="container">
 {{- partial "components/headline" . -}}
 {{- partial "components/search-modal" . -}}
 {{- partial "components/announcement" . -}}
-<div class="row">
+<div class="row ">
 {{- partial "components/checkbox" . -}}
 {{- partial "components/docs-content" . -}}
+</div>
 </div>
 {{- end -}}
