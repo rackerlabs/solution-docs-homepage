@@ -73,13 +73,13 @@
 
 # Private Cloud Docs
 
-/docs/private-cloud/rpc/v17/*       https://develop-v17--privatecloud-docs.netlify.app/:splat      200
+/docs/private-cloud/rpc/v17/*       https://develop-v17--privatecloud-docs.netlify.app/docs/private-cloud/rpc/v17/:splat      200
 
-/docs/private-cloud/rpc/v16/*       https://develop-v16--privatecloud-docs.netlify.app/:splat      200
+/docs/private-cloud/rpc/v16/*       https://develop-v16--privatecloud-docs.netlify.app/docs/private-cloud/rpc/v16/:splat      200
 
-/docs/private-cloud/rpc/v14/*       https://develop-v14--privatecloud-docs.netlify.app/:splat      200
+/docs/private-cloud/rpc/v14/*       https://develop-v14--privatecloud-docs.netlify.app/docs/private-cloud/rpc/v14/:splat      200
 
-/docs/private-cloud/rpc/v13/*       https://develop-v13--privatecloud-docs.netlify.app/:splat      200
+/docs/private-cloud/rpc/v13/*       https://develop-v13--privatecloud-docs.netlify.app/docs/private-cloud/rpc/v13/:splat      200
 
 # Cloud orchestration
 /docs/cloud-orchestration/v1/*          https://docs-cloud-orchestration.netlify.app/docs/cloud-orchestration/v1/:splat     200
