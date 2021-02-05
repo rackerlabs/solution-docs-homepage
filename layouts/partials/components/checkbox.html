@@ -1,5 +1,5 @@
 <div class="docs-home col-sm-12 col-md-4 col-lg-3 sidebar">
-    <div class="sidebar-container ng-isolate-scope sticky-top" data-drc-sticky="" data-offset-top="321" data-drc-flex-height="" data-flex-bottom="443">
+    <div class="sidebar-container">
         <h5>Filter by Product:</h5>
         <ul class="product-filters" data-ng-controller="DocsHomeSidebarCtrl">
             <li class="all" data-ng-click="clickFilter('*')" data-ng-class="{'active': isFilterActive('*')}">
@@ -38,12 +38,12 @@
                     <span class="indicator fa fa-check"></span>
                 </a>
             </li>
-            <li class="dev-tools" data-ng-click="clickFilter('dev-tools')" data-ng-class="{'active': isFilterActive('dev-tools')}">
+            {{/*  <li class="dev-tools" data-ng-click="clickFilter('dev-tools')" data-ng-class="{'active': isFilterActive('dev-tools')}">
                 <a href="">
                     <span class="label">SDKs &amp; Tools</span>
                     <span class="indicator fa fa-check"></span>
                 </a>
-            </li>
+            </li>  */}}
         </ul>
         {{/*  <h5>SDK Language Support:</h5>  */}}
         {{/*  <ul class="quickstarts">
