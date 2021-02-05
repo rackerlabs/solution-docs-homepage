@@ -126,10 +126,18 @@
 # MPC Hyper-V
 /docs/microsoft-hyper-v/hyper-v-handbook/*      https://mpc-hyper-v.netlify.app/docs/microsoft-hyper-v/hyper-v-handbook/:splat      200
 
+# Billing API Guide
+/docs/billing-apiguide/v2/*      https://docs-billing-apiguide.netlify.app/docs/billing-apiguide/v2/:splat      200
+
+# Cloud Rackconnect
+/docs/rackconnect/v3/developer-guide/*      https://docs-cloud-rackconnect.netlify.app/docs/rackconnect/v3/developer-guide/:splat       200
+
+
 # 404 Redirects
 /docs/docs-service-blocks       /docs/service-blocks    301
 /docs/docs-service-blocks/*    /docs/service-blocks/:splat     301
 
 # Main Redirects
 /docs/*     https://api.rackspace.com/docs/:splat       200!
+/doc/*     https://api.rackspace.com/doc/:splat       200!
 /sdks/*     https://api.rackspace.com/sdks/:splat       200!
