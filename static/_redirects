@@ -124,10 +124,10 @@
 /docs/user-guides/infrastructure/*      https://docs-core-infra-user-guide.netlify.app/docs/user-guides/infrastructure/:splat       200
 
 # MPC Hyper-V
-/docs/microsoft-hyper-v/hyper-v-handbook/*      https://mpc-hyper-v.netlify.app/docs/microsoft-hyper-v/hyper-v-handbook/:splat      
+/docs/microsoft-hyper-v/hyper-v-handbook/*      https://mpc-hyper-v.netlify.app/docs/microsoft-hyper-v/hyper-v-handbook/:splat      200
 
 # 404 Redirects
-/docs/docs-service-blocks/*     /docs/service-blocks/:splat     404
+/docs/docs-service-blocks/*     https://docs-service-blocks.netlify.app/docs/service-blocks/:splat     404!
 
 # Main Redirects
 /docs/*     https://api.rackspace.com/docs/:splat       200!
