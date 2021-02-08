@@ -132,6 +132,8 @@
 # Cloud Rackconnect
 /docs/rackconnect/v3/developer-guide/*      https://docs-cloud-rackconnect.netlify.app/docs/rackconnect/v3/developer-guide/:splat       200
 
+# Dedicated Networking
+/docs/dedicated-load-balancers/v2/*      https://docs-dedicated-networking.netlify.app/docs/dedicated-load-balancers/v2/:splat   200
 
 # 404 Redirects
 /docs/docs-service-blocks       /docs/service-blocks    301
