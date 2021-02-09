@@ -11,7 +11,7 @@
 /docs/cloud-servers/v2/*       https://docs-cloud-servers.netlify.app/docs/cloud-servers/v2/:splat       200
 
 # Colocation guide
-/docs/docs-colocation-guide/*      https://docs-colocation-guide.netlify.app/:splat      200
+/docs/docs-colocation-guide/*      https://docs-colocation-guide.netlify.app/docs/docs-colocation-guide/:splat      200
 
 # Quick start
 /docs/cloud-servers/quickstart/*      https://docs-quickstart.netlify.app/cloud-servers/quickstart/:splat     200
