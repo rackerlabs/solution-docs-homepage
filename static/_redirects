@@ -141,6 +141,9 @@
 # Style Guide
 /docs/style-guide/*     https://docs-style-guide.netlify.app/docs/style-guide/:splat        200
 
+# Heat Resource Ref
+/docs/cloud-orchestration/v1/resources-reference/*      https://heat-resource-ref.netlify.app/docs/cloud-orchestration/v1/resources-reference/:splat        200
+
 # 404 Redirects
 /docs/docs-service-blocks       /docs/service-blocks    301
 /docs/docs-service-blocks/*    /docs/service-blocks/:splat     301
