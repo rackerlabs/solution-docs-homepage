@@ -152,3 +152,4 @@
 /docs/*     https://api.rackspace.com/docs/:splat       200!
 /doc/*     https://api.rackspace.com/doc/:splat       200!
 /sdks/*     https://api.rackspace.com/sdks/:splat       200!
+/databases/*        https://api.rackspace.com/databases/:splat      200!
