@@ -15,6 +15,7 @@ angular.module(moduleName, [
     require('./controllers/docs-home-sidebar'),
     require('./components/sticky'),
     require('./services/filter'),
+    require('./services/active-language')
 ]);
 
 angular.bootstrap(document, [moduleName]);
