@@ -6,6 +6,8 @@ module.exports = moduleName;
 
 angular.module(moduleName, [
     require('angular-sanitize'),
+    require('./components/code-sample'),
+    require('./components/code-sample-parent'),
     require('./components/flex-height'),
     require('./components/global-sidebar'),
     require('./components/collapsible-nav'),
@@ -14,8 +16,8 @@ angular.module(moduleName, [
     require('./controllers/docs-home-services'),
     require('./controllers/docs-home-sidebar'),
     require('./components/sticky'),
+    require('./services/active-language'),
     require('./services/filter'),
-    require('./services/active-language')
 ]);
 
 angular.bootstrap(document, [moduleName]);
