@@ -153,7 +153,9 @@
 /docs/cloud-feeds/v1/developer-guide/*      https://standard-usage-schemas.netlify.app/docs/cloud-feeds/v1/developer-guide/:splat       200
 
 # KAAS
-/docs/rkaas/v3.1.x/*    https://3.1.x--kaas.netlify.app/docs/rkaas/v3.1.x/:splat     200
+/docs/rkaas/v3.1.x/*    https://602a9b4553e1ba00086ed268--kaas.netlify.app/docs/rkaas/v3.1.x/:splat     200
+
+/docs/rkaas/v3.0.x/*   https://602a9f540f738b000772185b--kaas.netlify.app/docs/rkaas/v3.0.x/:splat     200
 
 # 404 Redirects
 /docs/docs-service-blocks       /docs/service-blocks    301
