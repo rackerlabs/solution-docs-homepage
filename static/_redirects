@@ -157,6 +157,23 @@
 
 /docs/rkaas/v3.0.x/*   https://602a9f540f738b000772185b--kaas.netlify.app/docs/rkaas/v3.0.x/:splat     200
 
+/docs/rkaas/v2.1.x/*   https://602ab684ecb873000858eb1b--kaas.netlify.app/docs/rkaas/v2.1.x/:splat     200
+
+/docs/rkaas/v2.0.x/*   https://602ac68585283300071554f4--kaas.netlify.app/docs/rkaas/v2.0.x/:splat     200
+
+/docs/rkaas/v1.2.x/*   https://602be5724658d200083cb3ec--kaas.netlify.app/docs/rkaas/v1.2.x/:splat     200
+
+/docs/rkaas/v1.3.x/*   https://602be399b604220008225f4d--kaas.netlify.app/docs/rkaas/v1.3.x/:splat     200
+
+/docs/rkaas/v1.5.x/*   https://602ae0ccbd14e70007a4b23e--kaas.netlify.app/docs/rkaas/v1.5.x/:splat     200
+
+/docs/rkaas/v1.1.x/*   https://602beba33acad300086baff8--kaas.netlify.app/docs/rkaas/v1.1.x/:splat     200
+
+/docs/rkaas/v1.4.x/*   https://602ae09899e68700072b1b85--kaas.netlify.app/docs/rkaas/v1.4.x/:splat     200
+
+# Autoscale
+/docs/autoscale/v1/developer-guide/*        https://otter.netlify.app/docs/autoscale/v1/developer-guide/:splat    200
+
 # 404 Redirects
 /docs/docs-service-blocks       /docs/service-blocks    301
 /docs/docs-service-blocks/*    /docs/service-blocks/:splat     301
