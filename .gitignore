@@ -18,4 +18,3 @@ resources/_gen
 .netlify
 Gemfile.lock
 static/assets
-package-lock.json
