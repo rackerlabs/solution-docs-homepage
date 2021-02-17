@@ -37,7 +37,7 @@
         "url-loader": "^4.1.1",
         "url-parse": "^1.4.7",
         "webpack": "^4.42.0",
-        "webpack-cli": "^3.3.11"
+        "webpack-cli": "^4.5.0"
     },
     "dependencies": {
         "@babel/cli": "^7.11.6",
