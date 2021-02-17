@@ -66,8 +66,6 @@
         "moment": "^2.29.1",
         "popper.js": "^1.16.1",
         "prop-types": "^15.7.2",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
         "react-instantsearch": "^6.8.2",
         "remark-cli": "^8.0.1",
         "remark-validate-links": "^10.0.2",
