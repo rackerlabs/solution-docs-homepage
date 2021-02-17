@@ -153,23 +153,23 @@
 /docs/cloud-feeds/v1/developer-guide/*      https://standard-usage-schemas.netlify.app/docs/cloud-feeds/v1/developer-guide/:splat       200
 
 # KAAS
-/docs/rkaas/v3.1.x/*    https://602a9b4553e1ba00086ed268--kaas.netlify.app/docs/rkaas/v3.1.x/:splat     200
+/docs/rkaas/v3.1.x/*    https://602d36eb853f9500084dd075--kaas.netlify.app/docs/rkaas/v3.1.x/:splat     200
 
-/docs/rkaas/v3.0.x/*   https://602a9f540f738b000772185b--kaas.netlify.app/docs/rkaas/v3.0.x/:splat     200
+/docs/rkaas/v3.0.x/*   https://602d369f4a25a50009d50a01--kaas.netlify.app/docs/rkaas/v3.0.x/:splat     200
 
-/docs/rkaas/v2.1.x/*   https://602ab684ecb873000858eb1b--kaas.netlify.app/docs/rkaas/v2.1.x/:splat     200
+/docs/rkaas/v2.1.x/*   https://602d365710b91b0008e56b67--kaas.netlify.app/docs/rkaas/v2.1.x/:splat     200
 
-/docs/rkaas/v2.0.x/*   https://602ac68585283300071554f4--kaas.netlify.app/docs/rkaas/v2.0.x/:splat     200
+/docs/rkaas/v2.0.x/*   https://602d35fbbf25420008866793--kaas.netlify.app/docs/rkaas/v2.0.x/:splat     200
 
-/docs/rkaas/v1.2.x/*   https://602be5724658d200083cb3ec--kaas.netlify.app/docs/rkaas/v1.2.x/:splat     200
+/docs/rkaas/v1.2.x/*   https://602d32cb9f5d5e000786bf29--kaas.netlify.app/docs/rkaas/v1.2.x/:splat     200
 
-/docs/rkaas/v1.3.x/*   https://602be399b604220008225f4d--kaas.netlify.app/docs/rkaas/v1.3.x/:splat     200
+/docs/rkaas/v1.3.x/*   https://602d3317c7e0680007bcbd49--kaas.netlify.app/docs/rkaas/v1.3.x/:splat     200
 
-/docs/rkaas/v1.5.x/*   https://602ae0ccbd14e70007a4b23e--kaas.netlify.app/docs/rkaas/v1.5.x/:splat     200
+/docs/rkaas/v1.5.x/*   https://602d38c87574f82806d8627a--kaas.netlify.app/docs/rkaas/v1.5.x/:splat     200
 
-/docs/rkaas/v1.1.x/*   https://602beba33acad300086baff8--kaas.netlify.app/docs/rkaas/v1.1.x/:splat     200
+/docs/rkaas/v1.1.x/*   https://602d323d39f712000729692f--kaas.netlify.app/docs/rkaas/v1.1.x/:splat     200
 
-/docs/rkaas/v1.4.x/*   https://602ae09899e68700072b1b85--kaas.netlify.app/docs/rkaas/v1.4.x/:splat     200
+/docs/rkaas/v1.4.x/*   https://602d33fffad615000702266e--kaas.netlify.app/docs/rkaas/v1.4.x/:splat     200
 
 # Autoscale
 /docs/autoscale/v1/developer-guide/*        https://otter.netlify.app/docs/autoscale/v1/developer-guide/:splat    200
