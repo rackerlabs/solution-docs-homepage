@@ -118,7 +118,16 @@
         document.body.appendChild(css);
     }
 </script>
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'XZ9D9LP73L',
+    apiKey: '67556ea72175e4bad2fbe3171c4dab07',
+    siteId: '53f88b69-965d-4757-a1b9-fa99b18e92c7',
+    branch: 'master',
+    selector: 'div#search',
+  });
+</script>
 <script
     src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries">
 </script>
