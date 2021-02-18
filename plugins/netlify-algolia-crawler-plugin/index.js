@@ -8,7 +8,7 @@ module.exports = function netlifyAlgoliaCrawlerPlugin(inputs) {
             
             const URL_TO_INDEX = 'https://docs.rackspace.com/docs/';
             const ALGOLIA_APPLICATION_ID = 'KL3UEHFLE7';
-            const ALGOLIA_API_KEY = '9216222240a120ca2d6c266ebd945046';
+            const ALGOLIA_API_KEY = '60cda4c37af4033cf09fda31aa2de56b';
             const ALGOLIA_INDEX_NAME = 'test_PRODUCT_DOCS';
             const ALGOLIA_CHUNK_SIZE = 2000;
             
