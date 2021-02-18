@@ -1,5 +1,5 @@
 
-module.exports = function netlifyAlgoliaPlugin(inputs) {
+module.exports = function netlifyAlgoliaCrawlerPlugin(inputs) {
     return {
         onPostBuild: () => {
             const Crawler = require('./lib/crawler');
