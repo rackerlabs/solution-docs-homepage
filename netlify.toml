@@ -69,4 +69,4 @@
   debugMode = true # extra logging for plugin developers
 
 [[plugins]]
-  package="/plugins/netlify-algolia-crawler-plugin"
+  package="netlify-plugin-search-index"
