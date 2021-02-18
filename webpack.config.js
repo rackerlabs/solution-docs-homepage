@@ -64,11 +64,8 @@ module.exports = {
     new webpack.DefinePlugin({
       // Provide enviroment variable defaults
       // from .env
-      // ALGOLIA_APP_ID: JSON.stringify(process.env.ALGOLIA_APP_ID),
-      // ALGOLIA_API_KEY: JSON.stringify(process.env.ALGOLIA_API_KEY),
-      // ALGOLIA_INDEX_NAME: JSON.stringify(process.env.ALGOLIA_INDEX_NAME),
-      // ALGOLIA_BRANCH: JSON.stringify(process.env.ALGOLIA_BRANCH),
-      // ALGOLIA_SITE_ID: JSON.stringify(process.env.ALGOLIA_SITE_ID),
-      // ALGOLIA_BASE_URL: JSON.stringify(process.env.ALGOLIA_BASE_URL)
+      ALGOLIA_APP_ID: JSON.stringify(process.env.ALGOLIA_APP_ID),
+      ALGOLIA_API_KEY: JSON.stringify(process.env.ALGOLIA_API_KEY),
+      ALGOLIA_INDEX_NAME: JSON.stringify(process.env.ALGOLIA_INDEX_NAME)
     })],
 };

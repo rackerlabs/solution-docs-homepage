@@ -22,7 +22,6 @@
         "@babel/core": "^7.12.10",
         "@babel/preset-env": "^7.12.11",
         "@babel/preset-react": "^7.12.10",
-        "algolia-crawl": "^1.2.13",
         "autoprefixer": "^9.7.4",
         "babel-loader": "^8.2.2",
         "core-js": "^3.6.4",
@@ -37,11 +36,11 @@
         "react-instantsearch-dom": "^6.9.0",
         "react-scripts": "^4.0.2",
         "tap-spot": "^1.1.1",
+        "url": "^0.11.0",
         "webpack": "^5.12.3",
         "webpack-cli": "^4.3.1"
     },
     "dependencies": {
-        "@algolia/algoliasearch-netlify-frontend": "^1.0.3",
         "@babel/cli": "^7.12.10",
         "@munter/tap-render": "^0.2.0",
         "algoliasearch": "^4.8.3",
@@ -56,6 +55,7 @@
         "child_process": "^1.0.2",
         "clean-webpack-plugin": "^3.0.0",
         "content-loaded": "^1.2.1",
+        "crawler": "^1.3.0",
         "dotenv": "^8.2.0",
         "glob": "^7.1.6",
         "globby": "^11.0.1",
@@ -74,6 +74,7 @@
         "sass-loader": "^10.0.4",
         "smoothscroll-polyfill": "^0.4.4",
         "to-vfile": "^6.1.0",
+        "unfluff": "^3.2.0",
         "vfile-reporter": "^6.0.2",
         "yargs": "^16.0.3"
     },
