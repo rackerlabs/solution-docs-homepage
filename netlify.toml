@@ -57,3 +57,6 @@
 
 [[plugins]]
   package="netlify-plugin-search-index"
+  [plugins.inputs]
+    generatedFunctionName = 'null'
+    publishDirJSONFileName = 'index' # you can use / to nest in a directory
