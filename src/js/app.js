@@ -22,6 +22,3 @@ angular.module(moduleName, [
 
 angular.bootstrap(document, [moduleName]);
 
-import searchIndex from '/searchIndex.json';
-
-console.log('searchIndex:: ', searchIndex);
