@@ -22,6 +22,7 @@
         "@babel/core": "^7.12.10",
         "@babel/preset-env": "^7.12.11",
         "@babel/preset-react": "^7.12.10",
+        "algolia-crawl": "^1.2.13",
         "autoprefixer": "^9.7.4",
         "babel-loader": "^8.2.2",
         "core-js": "^3.6.4",

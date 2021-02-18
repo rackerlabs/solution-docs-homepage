@@ -32,10 +32,6 @@
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
 
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-	[plugins.inputs]
-	debug = true
 
 [dev]
   framework = "#custom"
@@ -49,7 +45,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
-
   [plugins.inputs]
   buildDir = "public"
   prettyURLs = true
@@ -72,6 +67,3 @@
 
   # Developer only
   debugMode = true # extra logging for plugin developers
-
-[[plugins]]
-package = "@algolia/netlify-plugin-crawler"
