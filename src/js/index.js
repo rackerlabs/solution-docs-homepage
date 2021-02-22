@@ -1,9 +1,9 @@
 var app = require('./app');
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './imports/App';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from './imports/App';
 
-ReactDOM.render(<App />, document.getElementById('search'));
+// ReactDOM.render(<App />, document.getElementById('search'));
 
 algoliasearchNetlify({
     appId: 'TYOYEKS0CV',
