@@ -6,7 +6,7 @@ import { connectStateResults } from "react-instantsearch/connectors"
 
 const algoliaClient = algoliasearch(
   ALGOLIA_APP_ID,
-  ALGOLIA_SEARCH_KEY
+  ALGOLIA_API_KEY
 );
 
 const Results = connectStateResults(
