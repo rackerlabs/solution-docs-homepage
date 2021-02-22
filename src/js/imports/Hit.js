@@ -5,22 +5,19 @@ import Snippet from './Snippet';
 
 
 const Hit = ({ hit }) => {
-  if (hit.product_url != null && hit.created_by != null && hit.created_by != '' && hit.created_date != null && !hit.permalink.includes('all-articles')) {
+  if (hit.title != null && hit.title != '' && hit.content != '' && hit.content != null) {
     return (
       <div className="row">
         <div className="col-sm-12">
-          <a className="search-type-link" href="/support/how-to/">How-To</a>&nbsp;&gt;&nbsp;
-          <a href={`/support/how-to/${hit.product_url}`} className="search-type-link">{hit.product}</a>
+          <a className="search-type-link" href="/docs/">Solution Docs</a>&nbsp;&gt;&nbsp;
           <h2>
-            <a className="search-title-link" href={`/support/how-to/${hit.permalink}`}>
+            <a className="search-title-link" href={`${hit.objectID}`}>
               <Highlight attribute="title" hit={hit} />
             </a>
           </h2>
-          <a className="search-summary-link" href={`/support/how-to/${hit.permalink}`}>
+          <a className="search-summary-link" href={`${hit.objectID}`}>
             <p className="search-summary"><Snippet hit={hit} attribute="content" tagName="mark"/></p>
           </a>
-          <span className="search-author" > By &nbsp; <a className="search-author-link"><Highlight attribute="created_by" hit={hit}/></a></span>
-          <span className="search-date">{hit.last_modified_date}</span>
         </div>
       </div>
     );
