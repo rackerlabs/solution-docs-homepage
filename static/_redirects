@@ -1,5 +1,5 @@
 # Solution Docs Redirects
-/docs   /     200
+/docs   https://develop-solution-docs.netlify.app/     200
 
 # Portal Onboarding guide Redirects
 /docs/portal-onboarding-guide/*      https://docs-portal-onboarding-guide.netlify.app/docs/portal-onboarding-guide/:splat         200
