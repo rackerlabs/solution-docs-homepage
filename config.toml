@@ -90,15 +90,10 @@ defaultMarkdownHandler = "goldmark"
         url = "/docs"
         weight = 200
     [[menu.footer]]
-        name = "SDKs"
-        parent = "Developer Network"
-        url = "https://docs.rackspace.com/sdks/python/"
-        weight = 300
-    [[menu.footer]]
         name = "Rackspace How-To"
         parent = "Developer Network"
         url = "https://support.rackspace.com/how-to/"
-        weight = 400
+        weight = 300
 [[menu.footer]]
     name = "Blogs"
     weight = 20
