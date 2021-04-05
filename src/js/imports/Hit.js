@@ -11,11 +11,11 @@ const Hit = ({ hit }) => {
         <div className="col-sm-12">
           <a className="search-type-link" href="/docs/">Solution Docs</a>&nbsp;&gt;&nbsp;
           <h2>
-            <a className="search-title-link" href={`${hit.objectID}`}>
+            <a className="search-title-link" href={`${hit.url}`}>
               <Highlight attribute="title" hit={hit} />
             </a>
           </h2>
-          <a className="search-summary-link" href={`${hit.objectID}`}>
+          <a className="search-summary-link" href={`${hit.url}`}>
             <p className="search-summary"><Snippet hit={hit} attribute="content" tagName="mark"/></p>
           </a>
         </div>
