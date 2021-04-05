@@ -1,0 +1,4 @@
+User-agent: Algolia Crawler
+{{range .Pages}}
+Allow: *
+{{end}}
