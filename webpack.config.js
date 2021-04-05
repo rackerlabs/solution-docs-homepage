@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const dotenv = require("dotenv");
 const fs = require("fs");
 const webpack = require("webpack");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 /**
  * Load env vars from .env if available
  */
@@ -21,7 +22,7 @@ module.exports = {
         use: ['babel-loader'],
       },
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
@@ -29,22 +30,25 @@ module.exports = {
         ],
       },
       {
-        test: /\.less$/,
+        test: /\.(png|svg|jpe?g|gif)$/,
         use: [
           {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader"
-          },
-          {
-            loader: "less-loader",
+            loader: 'file-loader',
             options: {
-              javascriptEnabled: true
+              name: '[name].[ext]'
             }
           }
         ]
-      }
+      },
+      {
+        test: /\.(eot|ttf|woff|woff2)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]'
+          }
+        }
+      },
     ],
   },
   resolve: {
@@ -66,6 +70,7 @@ module.exports = {
       filename: "bundle.css?[chunkhash]",
       chunkFilename: "[name].css?[chunkhash]"
     }),
+    new HtmlWebpackPlugin(),
     new webpack.DefinePlugin({
       // Provide enviroment variable defaults
       // from .env

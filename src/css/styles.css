@@ -11079,7 +11079,7 @@ hr {
 }
 
 .site-header .header-headline {
-    background-image: url(/img/headline-cover.jpeg);
+    background-image: url(/static/img/headline-cover.jpeg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12320,10 +12320,10 @@ table {
 }
 @font-face {
  font-family:drc-icons;
- src:url(/assets/bower_components/drc-icons/dist/fonts/drc-icons.eot?8f9f0fe7a4bb487064de0a3d4ba5ecf6);
- src:url(/assets/bower_components/drc-icons/dist/fonts/drc-icons.eot?#iefix) format("embedded-opentype"),
- url(/assets/bower_components/drc-icons/dist/fonts/drc-icons.woff?8f9f0fe7a4bb487064de0a3d4ba5ecf6) format("woff"),
- url(/assets/bower_components/drc-icons/dist/fonts/drc-icons.ttf?8f9f0fe7a4bb487064de0a3d4ba5ecf6) format("truetype");
+ src:url(/static/fonts/drc-icons.eot?8f9f0fe7a4bb487064de0a3d4ba5ecf6);
+ src:url(/static/fonts/drc-icons.eot?#iefix) format("embedded-opentype"),
+ url(/static/fonts/drc-icons.woff?8f9f0fe7a4bb487064de0a3d4ba5ecf6) format("woff"),
+ url(/static/fonts/drc-icons.ttf?8f9f0fe7a4bb487064de0a3d4ba5ecf6) format("truetype");
  font-weight:400;
  font-style:normal
 }
