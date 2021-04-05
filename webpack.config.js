@@ -9,7 +9,9 @@ const webpack = require("webpack");
 dotenv.config();
 module.exports = {
   entry: [
-    path.resolve('src', 'js', 'index.js')
+    path.resolve('src', 'js', 'index.js'),
+    path.resolve('src', 'js', 'theme.js'),
+    path.resolve('src', 'css', 'styles.css'),
   ],
   module: {
     rules: [
@@ -19,7 +21,7 @@ module.exports = {
         use: ['babel-loader'],
       },
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
@@ -60,7 +62,10 @@ module.exports = {
     poll: 1000
   },
   plugins: [
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({
+      filename: "bundle.css?[chunkhash]",
+      chunkFilename: "[name].css?[chunkhash]"
+    }),
     new webpack.DefinePlugin({
       // Provide enviroment variable defaults
       // from .env
