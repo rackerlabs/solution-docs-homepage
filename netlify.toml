@@ -61,6 +61,4 @@ package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   branches = ['master']
   disabled = false
-  pathPrefix = "/docs"
-  customDomain = "docs.rackspace.com"
   renderJavaScript = true
