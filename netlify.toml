@@ -57,4 +57,10 @@
   debugMode = true # extra logging for plugin developers
 
 [[plugins]]
-  package="netlify-plugin-search-index"
+package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ['master']
+  disabled = false
+  pathPrefix = "/docs"
+  customDomain = "docs.rackspace.com"
+  renderJavaScript = true
