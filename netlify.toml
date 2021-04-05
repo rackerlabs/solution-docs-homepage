@@ -62,3 +62,9 @@ package = "@algolia/netlify-plugin-crawler"
   branches = ['master']
   disabled = false
   renderJavaScript = true
+  ignoreCannonicalTo = [
+    'https://master--develop-solution-docs.netlify.app/docs/**'
+  ]
+  exclusionPatterns = [
+    'navbar.html'
+  ]
