@@ -11079,7 +11079,7 @@ hr {
 }
 
 .site-header .header-headline {
-    background-image: url(/_static/img/headline-cover.jpg);
+    background-image: url(/img/headline-cover.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
