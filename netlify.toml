@@ -101,3 +101,6 @@
 		"bing",
 		"yandex"
 	]
+
+[[plugins]]
+package = "netlify-plugin-image-optim"
