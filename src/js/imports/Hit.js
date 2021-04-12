@@ -9,7 +9,7 @@ const Hit = ({ hit }) => {
     return (
       <div className="row">
         <div className="col-sm-12">
-          <a className="search-type-link" href="/docs/">Solution Docs</a>&nbsp;&gt;&nbsp;<a className="search-type-link" href={`${hit.url}`}><Highlight attribute="category" hit={hit} /></a>
+          <a className="search-type-link" href="/docs/">Solution Docs</a>&nbsp;&gt;&nbsp;<a className="search-type-link" href={`${hit.url}`}>{hit.category}</a>
           <h2>
             <a className="search-title-link">
               <Highlight attribute="title" hit={hit} />
