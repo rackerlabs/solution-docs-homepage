@@ -5,13 +5,13 @@ import Snippet from './Snippet';
 
 
 const Hit = ({ hit }) => {
-  if (hit.title != null && hit.title != '' && hit.content != '' && hit.content != null) {
+  if (hit.title != null && hit.title != '' && hit.content != '' && hit.content != null && hit.category != '' && hit.category != null && hit.url != null) {
     return (
       <div className="row">
         <div className="col-sm-12">
-          <a className="search-type-link" href="/docs/">Solution Docs</a>&nbsp;&gt;&nbsp;
+          <a className="search-type-link" href="/docs/">Solution Docs</a>&nbsp;&gt;&nbsp;<a className="search-type-link" href={`${hit.url}`}><Highlight attribute="category" hit={hit} /></a>
           <h2>
-            <a className="search-title-link" href={`${hit.url}`}>
+            <a className="search-title-link">
               <Highlight attribute="title" hit={hit} />
             </a>
           </h2>
