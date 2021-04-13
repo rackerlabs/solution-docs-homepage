@@ -75,7 +75,6 @@ module.exports = {
       // Provide enviroment variable defaults
       // from .env
       ALGOLIA_API_KEY: JSON.stringify(process.env.ALGOLIA_API_KEY),
-      ALGOLIA_BASE_URL: JSON.stringify(process.env.ALGOLIA_BASE_URL),
-      ALGOLIA_INDEX_NAME: JSON.stringify('netlify_22f90b68-b04d-411c-a401-a4e19170c6ae_master_all')
+      ALGOLIA_BASE_URL: JSON.stringify(process.env.ALGOLIA_BASE_URL)
     })],
 };
