@@ -116,8 +116,8 @@ window.onload = function () {
     document.body.appendChild(css);
 }
 algoliasearchNetlify({
-    appId: 'A05K9F5RGB',
-    apiKey: '12aeb45caf8aa0724cf852a04e6c0646',
+    appId: 'VT5BB3Y8R2',
+    apiKey: '5c1e0605e80aec2c0a4a81527696c373',
     siteId: '22f90b68-b04d-411c-a401-a4e19170c6ae',
     branch: 'master',
     selector: 'div#crawler-search',
