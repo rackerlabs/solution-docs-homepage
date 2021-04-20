@@ -5,7 +5,7 @@ import Snippet from './Snippet';
 
 
 const Hit = ({ hit }) => {
-  if (hit.title != null && hit.title != '' && hit.content != '' && hit.content != null && hit.url != null) {
+  if (hit.title != null && hit.title != '' && hit.content != '' && hit.content != null && hit.url != null && hit.category != null && hit.category != '') {
     return (
       <div className="row">
         <div className="col-sm-12">
