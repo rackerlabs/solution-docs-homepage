@@ -74,7 +74,6 @@ module.exports = {
     new webpack.DefinePlugin({
       // Provide enviroment variable defaults
       // from .env
-      ALGOLIA_APP_ID: JSON.stringify(process.env.ALGOLIA_APP_ID),
       ALGOLIA_API_KEY: JSON.stringify(process.env.ALGOLIA_API_KEY),
       ALGOLIA_BASE_URL: JSON.stringify(process.env.ALGOLIA_BASE_URL)
     })],

@@ -15,6 +15,7 @@ smartDashes = true
 title = "Rackspace Developer Center"
 canonifyURLs = true
 enableGitInfo = true
+template = "hierarchical"
 [markup]
 defaultMarkdownHandler = "goldmark"
 [markup.asciidocExt]
@@ -193,7 +194,13 @@ defaultMarkdownHandler = "goldmark"
 
 
 [outputs]
-home = ["HTML", "RSS"]
+home = ["HTML", "RSS", "Algolia"]
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
 
 
 [params]

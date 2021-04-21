@@ -4,9 +4,11 @@ import { InstantSearch, SearchBox, Configure } from 'react-instantsearch-dom';
 import InfiniteHits from './InfiniteHits';
 import { connectStateResults } from "react-instantsearch/connectors"
 
+const ALGOLIA_SEARCH_KEY = '5c1e0605e80aec2c0a4a81527696c373';
+const ALGOLIA_APP_ID = 'VT5BB3Y8R2';
 const algoliaClient = algoliasearch(
   ALGOLIA_APP_ID,
-  ALGOLIA_API_KEY
+  ALGOLIA_SEARCH_KEY
 );
 
 const Results = connectStateResults(
@@ -21,6 +23,7 @@ const Results = connectStateResults(
   }
 );
 const searchClient = {
+  
     search(requests) {
         if (
             requests.every(({ params }) => !params.query.trim()
@@ -39,13 +42,14 @@ const searchClient = {
 };
 
 class App extends Component {
+  
   render() {
     const ALGOLIA_INDEX_NAME = 'netlify_22f90b68-b04d-411c-a401-a4e19170c6ae_master_all';
     return (
       <div className="ais-InstantSearch">
         <InstantSearch indexName={ALGOLIA_INDEX_NAME} searchClient={searchClient}>
           <Configure hitsPerPage={16} />
-          <SearchBox className="searchbox" translations={{ placeholder: 'Search across Support Docs', }} showLoadingIndicator />
+          <SearchBox className="searchbox" translations={{ placeholder: 'Search across Solution Docs', }} showLoadingIndicator />
             <Results>
               <InfiniteHits minHitsPerPage={16} />
             </Results>
