@@ -43,8 +43,8 @@ class InfiniteHits extends Component {
 
     return (
       <div className="hits">
-        <Configure attributesToSnippet={['title', 'content:80']} />
-        <CustomStats />
+        {/* <Configure attributesToSnippet={['title', 'content:80']} />
+        <CustomStats /> */}
         <ul>
           {hits.map(hit => (
             <li key={hit.objectID} className="hit-item-single">
