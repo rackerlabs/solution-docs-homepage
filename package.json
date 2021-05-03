@@ -42,7 +42,7 @@
         "react-scripts": "^4.0.2",
         "tap-spot": "^1.1.1",
         "url": "^0.11.0",
-        "webpack": "^5.35.0",
+        "webpack": "^5.36.2",
         "webpack-cli": "^4.3.1"
     },
     "dependencies": {
