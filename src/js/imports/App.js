@@ -33,6 +33,7 @@ const searchClient = {
                     hits: [],
                     nbHits: 0,
                     nbPages: 0,
+                    page: 0,
                     processingTimeMS: 0,
                 })),
             });
