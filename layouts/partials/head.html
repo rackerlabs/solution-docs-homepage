@@ -9,19 +9,42 @@
 <meta name="application-name" content="{{ $title }}" />
 <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
 <meta name="theme-color" content="#ffffff" />
-<meta name="description" property="og:description" />
-<meta name="category" property="product:category" content ="{{ $title }}"/>
-<meta name="keywords" property="article:tag" content="Solution Docs, Documentation, Developer Docs"/>
+<meta name="description" property="og:description" content="{{ $title }}"/>
+<meta name="category" property="product:category" content="Guides" />
+<meta name="Algolia crawler" content="noindex">
 
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
 <link rel="stylesheet" href="https://staging-docs-landing-page.netlify.app/style.css" />
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="https://staging-docs-landing-page.netlify.app/favicons/favicon.ico" />
-<link rel="icon" type="image/png" href="https://staging-docs-landing-page.netlify.app/favicons/favicon.ico" sizes="32x32" />
-<link rel="icon" type="image/png" href="https://staging-docs-landing-page.netlify.app/favicons/favicon.ico" sizes="16x16" />
+<link rel="apple-touch-icon" sizes="180x180"
+    href="https://staging-docs-landing-page.netlify.app/favicons/favicon.ico" />
+<link rel="icon" type="image/png" href="https://staging-docs-landing-page.netlify.app/favicons/favicon.ico"
+    sizes="32x32" />
+<link rel="icon" type="image/png" href="https://staging-docs-landing-page.netlify.app/favicons/favicon.ico"
+    sizes="16x16" />
 <link rel="mask-icon" href="https://staging-docs-landing-page.netlify.app/favicons/favicon.ico" color="#00c7b7" />
 
+<!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MW68KW');
+</script>
+<!-- End Google Tag Manager -->
