@@ -1,7 +1,0 @@
-{
-  "name": "product-docs-homepage",
-  "version": "1.0.0",
-  "description": "Product Docs Homepage for Rackspace",
-  "private": true,
-  "main": "index.js"
-}
