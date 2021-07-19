@@ -55,16 +55,6 @@ Now, install Asciidoctor and any additional dependencies:
 
 `make install`
 
-====  Build the documentation locally
-
-Build your content locally and check for build errors before submitting a pull request.
-
-1. Change directory to the root directory of your document repository.
-2. Type the following command:
-
-```sh
-npm run build:preview
-```
 
 ====  Start a local web server
 
@@ -79,7 +69,7 @@ To start the Hugo server, perform the following steps:
 1. Change directory to the root directory of your document repository.
 2. Run the following command:
 
-`npm start`
+`netlify dev`
 
 The Hugo server displays some messages while it starts up.  The last line should be:
 
@@ -98,7 +88,7 @@ your running instance.
 
 Some files may not be supported for live reload. If you are not automatically seeing your changes,
 you may need to restart the server. You can restart the server by pressing 'ctrl-c' and running
-`npm start` again.
+`netlify dev` again.
 
 ```
                    | EN-US
