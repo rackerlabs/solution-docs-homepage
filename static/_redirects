@@ -67,6 +67,9 @@
 /doc/rpc-vmware/*  https://vmware-cloud--rpc-vmware.netlify.app/doc/rpc-vmware/:splat    200
 /docs/docs-vmware-server-virt/server-virt-handbook/*     https://rxt-docs-server-virt.netlify.app/docs/docs-vmware-server-virt/server-virt-handbook/:splat     200
 
+# RSVC Solutions Guide
+/docs/rsvc-solutions-guide/*    https://rsvc-solution-guide.netlify.app/docs/rsvc-solutions-guide/:splat    200
+
 # Red-hat
 
 /docs/private-cloud/red-hat/*     https://docs-redhat-osp.netlify.app/docs/private-cloud/red-hat/:splat     200
