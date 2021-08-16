@@ -71,7 +71,7 @@
 /docs/rsvc-solutions-guide/*    https://rsvc-solution-guide.netlify.app/docs/rsvc-solutions-guide/:splat    200
 
 # AMR Solutions Guide
-/docs/amr/*    https://docs-amr.netlify.app/docs/docs-amr/:splat    200
+/docs/docs-amr/*    https://docs-amr.netlify.app/docs/docs-amr/:splat    200
 
 # Red-hat
 
