@@ -18,9 +18,9 @@
 
 /docs/cloud-images/quickstart/*        https://docs-quickstart.netlify.app/cloud-images/quickstart/:splat        200
 
-/docs/cloud-networks/quickstart/*      https://docs-quickstart.netlify.app/cloud-networks/quickstart/:splat        200  
+/docs/cloud-networks/quickstart/*      https://docs-quickstart.netlify.app/cloud-networks/quickstart/:splat        200
 
-/docs/cloud-load-balancers/quickstart/*      https://docs-quickstart.netlify.app/cloud-load-balancers/quickstart/:splat    200  
+/docs/cloud-load-balancers/quickstart/*      https://docs-quickstart.netlify.app/cloud-load-balancers/quickstart/:splat    200
 
 /docs/cloud-dns/quickstart/*       https://docs-quickstart.netlify.app/cloud-dns/quickstart/:splat     200
 
@@ -69,6 +69,9 @@
 
 # RSVC Solutions Guide
 /docs/rsvc-solutions-guide/*    https://rsvc-solution-guide.netlify.app/docs/rsvc-solutions-guide/:splat    200
+
+# AMR Solutions Guide
+/docs/amr/*    https://docs-amr.netlify.app/docs/docs-amr/:splat    200
 
 # Red-hat
 
@@ -136,16 +139,16 @@
 # Cloud Files
 /docs/cloud-files/v1/*      https://docs-cloud-files.netlify.app/docs/cloud-files/v1/:splat     200
 
-# Cloud DNS 
+# Cloud DNS
 /docs/cloud-dns/v1/*        https://docs-cloud-dns.netlify.app/docs/cloud-dns/v1/:splat         200
 
 # Cloud databases
 /docs/cloud-databases/v1/*      https://docs-cloud-databases.netlify.app/docs/cloud-databases/v1/:splat         200
 
-# Cloud CDN 
+# Cloud CDN
 /docs/cdn/v1/*      https://docs-cloud-cdn.netlify.app/docs/cdn/v1/:splat    200
 
-# Cloud Block Storage 
+# Cloud Block Storage
 /docs/cloud-block-storage/v1/*       https://docs-cloud-block-storage.netlify.app/docs/cloud-block-storage/v1/:splat     200
 
 # Cloud Backup
@@ -178,7 +181,7 @@
 # RS Heat Docs
 /docs/user-guides/orchestration/*       https://rs-heat-docs.netlify.app/docs/user-guides/orchestration/:splat      200
 
-# Cloud Feeds 
+# Cloud Feeds
 /docs/cloud-feeds/v1/developer-guide/*      https://standard-usage-schemas.netlify.app/docs/cloud-feeds/v1/developer-guide/:splat       200
 
 
