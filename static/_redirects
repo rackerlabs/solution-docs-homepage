@@ -7,6 +7,10 @@
 # Customer Service
 /docs/customer-service/v1/*      https://docs-customer-service.netlify.app/docs/customer-service/v1/:splat         200
 
+# Rackspace Software Defined Datacenter
+/docs/sddc/sddc-business-handbook/*   https://docs.rackspace.com/docs/sddc/sddc-business-handbook/:splat   200
+/docs/sddc/sddc-enterprise-handbook/* https://docs.rackspace.com/docs/sddc/sddc-business-handbook/:splat   200
+
 # Cloud Servers
 /docs/cloud-servers/v2/*       https://docs-cloud-servers.netlify.app/docs/cloud-servers/v2/:splat       200
 
